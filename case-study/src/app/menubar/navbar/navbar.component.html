@@ -1,0 +1,27 @@
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+         <a  class="navbar-brand" [routerLink]="['/login']"><img src=" assets/pic.jpg " style="background: white" width="60" height="50" class="d-inline-block align-top"        alt  ="">pixogram
+         </a>
+
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <ul class="nav nav-pill nav-justified">
+            <li class="nav-item ">
+                <!-- href would be replaced by [routerLink] -->
+                <a class="nav-link btn-warning" [routerLink]="['/upload media']">uploa media</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn-primary" [routerLink]="['/mymedia']">my media</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn-secondary" [routerLink]="['/followers/folloing']">followers/following</a>
+            </li>
+               <div class="col-3 d-flex flex-column" >
+         <a   [routerLink]="['/account']" class="badge badge-primary bd-highlight p-2 m-auto" >Account </a>            
+     </div>
+         </div>
+
+     </nav>
